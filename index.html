@@ -7,6 +7,7 @@
     <title>Blog Design</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/style.css" />
+    <link rel="stylesheet" typre="text/css" href="stylesheets/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/w3.css" />
     <script src="main.js"></script>
 </head>
@@ -15,12 +16,23 @@
     <div class="w3-row ">
         <div class="w3-container w3-grey">
             <div class="w3-panel w3-light-grey">
-                <h1>Header</h1>
+
+                <div class="w3-bar ">
+                    <a class="w3-bar-item logo-text">Header</a>
+                    <div class="w3-right w3-hide-small">
+
+                        <a class="w3-bar-item w3-mobile">/blog</a>
+                        <a class="w3-bar-item w3-mobile">/projects</a>
+                        <a class="w3-bar-item w3-mobile">/contact</a>
+                        <input type="text" class="w3-bar-item w3-input w3-mobile" placeholder="Search.. ">
+                        <button href="#" class="w3-bar-item"><i class="fa fa-search"></i></a>
+                    </div>
+                </div>
             </div>
 
             <div class="w3-row">
                 <div class="w3-panel w3-quarter w3-padding w3-margin-right w3-light-grey w3-hide-medium w3-hide-small"
-                style="margin-left: 40px;">
+                    style="margin-left: 40px;">
                     <h4>Popular posts</h4>
                     <li><img src="images/blake-cheek-1255775-unsplash.jpg" class="w3-image"></li>
                     <li>Python datatypes
@@ -32,39 +44,48 @@
                 </div>
                 <div class="w3-panel w3-col l5  w3-red">
                     <div class="">
-                        <div class="w3-panel post_list" >
-                            <img src="images/adrian-trinkaus-1256026-unsplash.jpg"  style="height: 350px; width: 100%;" class="w3-image">
-                            <h1>Main content</h1>
+                        <div class="w3-panel post_list">
+                            <img src="images/adrian-trinkaus-1256026-unsplash.jpg" style="height: 350px; width: 100%;"
+                                class="w3-image">
+                            <h1>Main content </h1>
+                            <span class="small">JUNE 21, 2016</span>
                             <div class="">
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem labore voluptates
                                     voluptatum blanditiis atque aut enim? Voluptatem officia, possimus ea saepe minima
                                     autem nobis dolor laudantium nesciunt numquam sit porro.</p>
+                                <button class="w3-button">Read more</button>
                             </div>
                         </div>
 
                     </div>
 
                     <div class="">
-                        <div class="w3-panel" >
-                            <img src="images/jonny-mckenna-1255289-unsplash.jpg" style="height: 350px; width: 100%;" class="w3-image">
+                        <div class="w3-panel">
+                            <img src="images/jonny-mckenna-1255289-unsplash.jpg" style="height: 350px; width: 100%;"
+                                class="w3-image">
                             <h1>Main content</h1>
+                            <span class="small">JUNE 21, 2016</span>
                             <div class="">
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem labore voluptates
                                     voluptatum blanditiis atque aut enim? Voluptatem officia, possimus ea saepe minima
                                     autem nobis dolor laudantium nesciunt numquam sit porro.</p>
+                                <button class="w3-button">Read more</button>
                             </div>
 
                         </div>
                     </div>
 
                     <div class="">
-                        <div class="w3-panel" >
-                            <img src="images/vruyr-martirosyan-1249139-unsplash.jpg" style="height: 350px; width: 100%;" class="w3-image">
+                        <div class="w3-panel">
+                            <img src="images/vruyr-martirosyan-1249139-unsplash.jpg" style="height: 350px; width: 100%;"
+                                class="w3-image">
                             <h1>Main content</h1>
+                            <span class="small">JUNE 21, 2016</span>
                             <div class="">
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem labore voluptates
                                     voluptatum blanditiis atque aut enim? Voluptatem officia, possimus ea saepe minima
                                     autem nobis dolor laudantium nesciunt numquam sit porro.</p>
+                                <button class="w3-button">Read more</button>
                             </div>
                         </div>
 
@@ -72,8 +93,7 @@
 
                 </div>
 
-                <div class="w3-panel w3-quarter w3-padding w3-margin-left w3-light-grey w3-hide-medium w3-hide-small"
-                >
+                <div class="w3-panel w3-quarter w3-padding w3-margin-left w3-light-grey w3-hide-medium w3-hide-small">
                     <h4>Adverts</h4>
                     <li><img src="images/blake-cheek-1255775-unsplash.jpg" class="w3-image"></li>
                     <li>Python datatypes
@@ -85,8 +105,9 @@
                 </div>
 
             </div>
-            <div class="w3-panel w3-dark-grey">
+            <div class="w3-panel w3-dark-grey w3-center">
                 <h1>Footer</h1>
+                <p>Made with <i class="fa fa-heart-o" style="color: red; "></i> and django</p>
             </div>
 
 
