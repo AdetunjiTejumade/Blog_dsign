@@ -1,6 +1,23 @@
+body{
+    
+background-color: #f3f9fd;
+color: #1b1b1b;
+}
 .logo-text{
     font-weight: bold;
 }
 .small{
     font-size: 16px;
 }
+.header-color{
+    color: white;
+    background-color: #227bb7;
+}
+li{
+    list-style: none;
+}
+/* @media (max-width:768){
+    .logo-text{
+        color: rgb(28, 28, 182);
+    }
+} */
